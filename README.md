@@ -4,9 +4,11 @@ Python file made to scan for websites.
 
 
 ## Download
+You can clone the repository into your computer by running:
 ```
 git clone https://github.com/pipe05/ip-scanner
 ```
+You can also download the file as a *.zip* and extract it
 
 
 
