@@ -7,7 +7,7 @@ from colorama import Fore, Back, Style
 init()
 
 #Enter your domains
-domains = ("","")
+domains = (".ru",".рф")
 
 lower = string.ascii_lowercase
 upper = string.ascii_uppercase
@@ -18,7 +18,6 @@ f = open("ipaddresses.txt","a")
 
 timez = time.strftime("%H:%M:%S", time.localtime())
 
-print(timez)
 
 f.write("\n\nNew instance opened at {}".format(timez))
 
@@ -49,7 +48,13 @@ def scan():
 
 
 
-commence = input("Commence IP search?:[Y/n]")
+print("--------------------------------")
+print("      IP Scanning Program       ")
+print("                                ")
+print("        Coded by pipe05         ")
+print("      Time:     {}             ".format(timez))
+print("--------------------------------")
+commence = input("\nCommence IP search?[Y/n]:")
 if commence == "Y" or commence == "y":
     while True:
         scan()
