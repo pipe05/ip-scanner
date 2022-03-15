@@ -7,7 +7,7 @@ from colorama import Fore, Back, Style
 init()
 
 #Enter your domains
-domains = (".ru",".рф")
+domains = ("","")
 
 lower = string.ascii_lowercase
 upper = string.ascii_uppercase
