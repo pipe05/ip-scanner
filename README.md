@@ -19,9 +19,8 @@ Example
 ```
 domains = (".com", ".net", ".org")
 ```
-### Domain name limit
-The domain name limit randomly selects a number between the set range
-To limit the length of the domain name you can change variable ***length*** on line *26*
+### Domain name range
+The domain name range randomly selects a number between the specified range to set the length of the domain. To change this edit the variable ***length*** on line *26*
 ```
 length = random.randint(x, y)
 ```
